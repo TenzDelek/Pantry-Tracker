@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export default function Home() {
-  const pantry = ["food1", "food2", "food3"];
+  const pantry = ["food1", "food2", "food3","food4"];
   const pass='tenzde3494lek'
   return (
     <div className=" h-screen flex-col items-center justify-center w-full flex">
