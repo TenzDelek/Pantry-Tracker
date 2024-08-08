@@ -8,6 +8,7 @@ datasource db {
 }
 
 model pantry {
-  id    Int    @id @default(autoincrement())
-  title String
+  id      Int      @id @default(autoincrement())
+  title   String
+  updated DateTime @updatedAt
 }
