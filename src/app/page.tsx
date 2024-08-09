@@ -30,7 +30,6 @@ export default function Home() {
         <div className=" flex items-center gap-2">
         <Search/>
         <Add/>
-        
         </div>
         <Category/>
         <Mainlist/>
