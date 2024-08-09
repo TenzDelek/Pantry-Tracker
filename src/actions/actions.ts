@@ -3,14 +3,14 @@
 import prisma from "@/lib/db"
 import { revalidatePath } from "next/cache"
 
-export async function additemdata(formdata:FormData){
-    const title= formdata.get("item") as string
+export async function additemdata(formData: FormData) {
+    const title = formData.get("item") as string
     console.log(title)
     await prisma.pantry.create({
-        data:{
+        data: {
             title,
-            
         }
     })
     revalidatePath("/")
+    return { success: true }
 }
