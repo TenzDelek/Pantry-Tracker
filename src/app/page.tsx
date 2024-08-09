@@ -9,7 +9,7 @@ import Mainlist from "@/components/Mainlist";
 export default function Home() {
   return (
     <div className=" h-screen bg-black p-4 flex-col items-center justify-center w-full flex">
-      <div className=" h-screen bg-[#0E0E0E]  w-[480px] rounded-md p-6">
+      <div className=" h-screen  lg:w-[560px] md:w-[480px] bg-[#0E0E0E] rounded-md p-6">
         <div className=" flex items-center justify-between">
           <p className=" text-xs mb-4">
             <span className=" text-green-500 text-xl font-bold">Pantry</span> A
