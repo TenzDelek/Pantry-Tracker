@@ -19,6 +19,7 @@ const Popup: React.FC<PopupProps> = ({ onClose }) => {
         <h2 className="text-sm font-bold mb-4">Add New Item</h2>
         <form action={handleSubmit}>
           <input
+          autoFocus
             type="text"
             name='item'
             placeholder="Enter item"

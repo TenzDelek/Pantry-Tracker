@@ -14,3 +14,10 @@ export async function additemdata(formData: FormData) {
     revalidatePath("/")
     return { success: true }
 }
+export async function deletepost(rawdata:FormData){
+const id=rawdata.get("id") as string
+await prisma.pantry.delete({
+    where:{id}
+})
+revalidatePath("/")
+}
