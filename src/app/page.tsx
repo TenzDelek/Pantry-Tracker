@@ -7,6 +7,7 @@ import logo from "../../public/headstarter.png"
 import Category from "@/components/Category";
 import Mainlist from "@/components/Mainlist";
 export default function Home() {
+  
   return (
     <div className=" h-screen bg-black p-4 flex-col items-center justify-center w-full flex">
       <div className=" h-screen  lg:w-[560px] md:w-[480px] bg-[#0E0E0E] rounded-md p-6">
